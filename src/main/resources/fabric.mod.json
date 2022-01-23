@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "testingmod",
+  "version": "${version}",
+
+  "name": "Paxxous's custom mod",
+  "description": "Custom garbage that is made by me! :D",
+  "authors": [
+    "paxxous"
+  ],
+  "contact": {
+    "homepage": "https://paxxous.xyz",
+    "sources": "https://github.com/Paxxous"
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.paxxous.testingmod.TestingMod"
+    ]
+  },
+  "mixins": [
+    "testingmod.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
