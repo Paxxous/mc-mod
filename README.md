@@ -1,9 +1,7 @@
-# Fabric Example Mod
+#A minecraft mod made by me.
 
-## Setup
+currently folling an exellent tutorial by kaupenjoe and this is going to be the perfect opportunity for me to learn Java.
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+# Features:
 
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+idk what I'm gonna do with this rn.
