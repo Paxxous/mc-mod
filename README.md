@@ -5,3 +5,7 @@ currently folling an exellent tutorial by kaupenjoe and this is going to be the 
 # Features:
 
 idk what I'm gonna do with this rn.
+
+# Announcements:
+
+woo! The mod is currently public!  (though nothing that interesting yet)
