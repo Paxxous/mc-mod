@@ -12,11 +12,13 @@ import net.minecraft.util.Identifier;
 import net.paxxous.testingmod.TestingMod;
 import net.minecraft.util.registry.Registry;
 
+import static net.paxxous.testingmod.item.ModItems.MEN;
+
 public class ModBlocks {
 
     //create the block
     public static final Block POOP = registerBlock("poop",
-            new Block(FabricBlockSettings.of(Material.METAL).breakInstantly()), ItemGroup.MISC);
+            new Block(FabricBlockSettings.of(Material.SOIL).hardness(6f).slipperiness(100f)), ItemGroup.MISC);
 
     //register the block itself
     private static Block registerBlock(String name, Block block, ItemGroup group) {
